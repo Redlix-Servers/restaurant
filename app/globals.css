@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #0a0a0a;
-  --foreground: #ededed;
+  --background: #fdfdfd;
+  --foreground: #333333;
 }
 
 @theme inline {
@@ -21,10 +21,10 @@
       transform: translateY(0);
     }
   }
+}
 
-  .animate-fade-in-up {
-    animation: fade-in-up 1.2s cubic-bezier(0.2, 1, 0.3, 1) forwards;
-  }
+.animate-fade-in-up {
+  animation: fade-in-up 1.2s cubic-bezier(0.2, 1, 0.3, 1) forwards;
 }
 
 body {
@@ -35,8 +35,8 @@ body {
 }
 
 ::selection {
-  background-color: #E5C37A;
-  color: #111;
+  background-color: #FF7A00;
+  color: #fff;
 }
 
 /* Custom scrollbar for premium look */
@@ -45,14 +45,14 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #0a0a0a;
+  background: #fdfdfd;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #2A2A2A;
+  background: #e0e0e0;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #3A3A3A;
+  background: #d0d0d0;
 }

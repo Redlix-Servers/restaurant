@@ -3,6 +3,9 @@ import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
 import ReserveTableSection from "../components/ReserveTableSection";
 import ServiceCards from "../components/ServiceCards";
+import MenuSection from "../components/MenuSection";
+import AboutSection from "../components/AboutSection";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -11,13 +14,19 @@ export default function Home() {
       <Navbar />
       <HeroSection />
       
-      {/* Dedicate Reserve Table Section */}
+      {/* Reservation Section */}
       <ReserveTableSection />
       
-      {/* Category/Service Cards with WhatsApp Button */}
+      {/* Service Category Highlights */}
       <ServiceCards />
       
-      {/* Features/Trust Section (already exists, but kept it clean) */}
+      {/* About Heritage Section */}
+      <AboutSection />
+      
+      {/* Main Menu Highlights */}
+      <MenuSection />
+      
+      {/* Dynamic Trust/Feature Section */}
       <section className="py-24 bg-white text-[#333] border-t border-[#F0F0F0]">
         <div className="max-w-[1200px] mx-auto px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
@@ -39,6 +48,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Main Footer */}
+      <Footer />
     </main>
   );
 }
