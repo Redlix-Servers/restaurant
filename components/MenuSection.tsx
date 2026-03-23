@@ -8,14 +8,14 @@ const MenuSection: React.FC = () => {
   const categories = ['Starters', 'Mains', 'Desserts', 'Drinks'];
 
   const menuItems = [
-    { name: 'Murgh Tikka Angare', price: '$22', desc: 'Succulent chicken morsels marinated in Kashmiri chilies and yogurt.', category: 'Starters' },
-    { name: 'Gilafi Seekh Kebab', price: '$24', desc: 'Minced lamb wrapped with bell peppers and grilled in tandoor.', category: 'Starters' },
-    { name: 'Paneer Lababdar', price: '$28', desc: 'Cubes of cottage cheese in a rich tomato and onion gravy with cream.', category: 'Mains' },
-    { name: 'Nalli Nihari', price: '$36', desc: 'Slow-cooked lamb shank in a spiced marrow gravy, a royal delicacy.', category: 'Mains' },
-    { name: 'Hyderabadi Dum Biryani', price: '$32', desc: 'Fragrant basmati rice layered with spiced meat and saffron.', category: 'Mains' },
-    { name: 'Dal Maharaja', price: '$24', desc: 'Our signature slow-cooked black lentils with butter and cream.', category: 'Mains' },
-    { name: 'Shahi Tukda', price: '$16', desc: 'Double-fried bread soaked in saffron-infused milk and nuts.', category: 'Desserts' },
-    { name: 'Kesari Phirni', price: '$14', desc: 'Traditional rice pudding flavored with saffron and served chilled.', category: 'Desserts' },
+    { name: 'Murgh Tikka Angare', price: '₹425', desc: 'Succulent chicken morsels marinated in Kashmiri chilies and yogurt.', category: 'Starters' },
+    { name: 'Gilafi Seekh Kebab', price: '₹495', desc: 'Minced lamb wrapped with bell peppers and grilled in tandoor.', category: 'Starters' },
+    { name: 'Paneer Lababdar', price: '₹385', desc: 'Cubes of cottage cheese in a rich tomato and onion gravy with cream.', category: 'Mains' },
+    { name: 'Nalli Nihari', price: '₹645', desc: 'Slow-cooked lamb shank in a spiced marrow gravy, a royal delicacy.', category: 'Mains' },
+    { name: 'Hyderabadi Dum Biryani', price: '₹525', desc: 'Fragrant basmati rice layered with spiced meat and saffron.', category: 'Mains' },
+    { name: 'Dal Maharaja', price: '₹345', desc: 'Our signature slow-cooked black lentils with butter and cream.', category: 'Mains' },
+    { name: 'Shahi Tukda', price: '₹225', desc: 'Double-fried bread soaked in saffron-infused milk and nuts.', category: 'Desserts' },
+    { name: 'Kesari Phirni', price: '₹185', desc: 'Traditional rice pudding flavored with saffron and served chilled.', category: 'Desserts' },
   ];
 
   const filteredItems = menuItems.filter(item => item.category === activeCategory);
@@ -82,9 +82,9 @@ const MenuSection: React.FC = () => {
                 <span className="text-[#FF7A00] text-sm font-bold uppercase tracking-widest mb-2">Signature Dish</span>
                 <h4 className="text-white text-3xl font-medium">Chef&apos;s Special Platter</h4>
               </div>
-              <div className="absolute top-6 right-6 w-20 h-20 bg-[#FF7A00] text-white rounded-full flex flex-col items-center justify-center font-bold shadow-xl border-2 border-white/20 animate-pulse">
+              <div className="absolute top-6 right-6 w-24 h-24 bg-[#FF7A00] text-white rounded-full flex flex-col items-center justify-center font-bold shadow-xl border-2 border-white/20 animate-pulse">
                 <span className="text-[10px] uppercase">Starting</span>
-                <span className="text-xl">$18</span>
+                <span className="text-xl">₹245</span>
               </div>
             </div>
           </div>
