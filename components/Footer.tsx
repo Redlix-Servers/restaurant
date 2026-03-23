@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
             <img 
               src="https://ik.imagekit.io/dypkhqxip/Screenshot_2026-03-23_at_18.46.33-removebg-preview.png" 
               alt="Maharaja Express Logo" 
-              className="h-20 w-auto object-contain brightness-0 invert" 
+              className="h-20 w-auto object-contain" 
             />
           </a>
           <div className="space-y-4">
@@ -72,7 +72,7 @@ const Footer: React.FC = () => {
                 <span>Closes 11:00 PM</span>
               </li>
               <li className="flex flex-col gap-1">
-                <button className="px-6 py-3 bg-white/5 border border-[#FF7A00] text-[#FF7A00] font-bold text-[12px] uppercase tracking-[0.1em] hover:bg-[#FF7A00] hover:text-white transition-all duration-300 rounded-sm w-fit mt-2">
+                <button className="px-6 py-3 border border-[#FF7A00] text-[#FF7A00] font-bold text-[12px] uppercase tracking-[0.1em] hover:bg-[#FF7A00] hover:text-white transition-all duration-300 rounded-sm w-fit mt-2">
                   Get Directions (40 mins away)
                 </button>
               </li>
